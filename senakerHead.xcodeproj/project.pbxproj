@@ -11,6 +11,8 @@
 		3FF8A87628DEEB2E0022ADE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8A87528DEEB2E0022ADE1 /* ContentView.swift */; };
 		3FF8A87828DEEB2E0022ADE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8A87728DEEB2E0022ADE1 /* Assets.xcassets */; };
 		3FF8A87B28DEEB2E0022ADE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF8A87A28DEEB2E0022ADE1 /* Preview Assets.xcassets */; };
+		3FF8A88328DEED520022ADE1 /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8A88228DEED520022ADE1 /* product.swift */; };
+		3FF8A88828DEF4E10022ADE1 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8A88728DEF4E10022ADE1 /* ProductCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3FF8A87528DEEB2E0022ADE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FF8A87728DEEB2E0022ADE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FF8A87A28DEEB2E0022ADE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FF8A88228DEED520022ADE1 /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
+		3FF8A88728DEF4E10022ADE1 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				3FF8A87328DEEB2E0022ADE1 /* senakerHeadApp.swift */,
-				3FF8A87528DEEB2E0022ADE1 /* ContentView.swift */,
+				3FF8A88928DEF8190022ADE1 /* Views */,
+				3FF8A88428DEF0AB0022ADE1 /* Components */,
+				3FF8A88128DEED310022ADE1 /* Models */,
 				3FF8A87728DEEB2E0022ADE1 /* Assets.xcassets */,
 				3FF8A87928DEEB2E0022ADE1 /* Preview Content */,
 			);
@@ -65,6 +71,30 @@
 				3FF8A87A28DEEB2E0022ADE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FF8A88128DEED310022ADE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8A88228DEED520022ADE1 /* product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3FF8A88428DEF0AB0022ADE1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8A88728DEF4E10022ADE1 /* ProductCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3FF8A88928DEF8190022ADE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FF8A87528DEEB2E0022ADE1 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF8A88328DEED520022ADE1 /* product.swift in Sources */,
 				3FF8A87628DEEB2E0022ADE1 /* ContentView.swift in Sources */,
 				3FF8A87428DEEB2E0022ADE1 /* senakerHeadApp.swift in Sources */,
+				3FF8A88828DEF4E10022ADE1 /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
